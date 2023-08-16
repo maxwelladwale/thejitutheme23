@@ -20,7 +20,7 @@ get_header();
                 <div class="col-sm-12 col-lg-6 col-md-6 landingHeader" style="text-align: right;">
                     <h1> <span class="redtext">Training </span> </h1>
                     <p style="font-size: 20px;">
-                        An intensive and immersive <br> 3-month program
+                        An intensive and immersive <br> 3-month programs
                     </p>
                     <a href="#calendar" class="button btn" id="trainingbtn">View Our Upcoming <br> Program Calendar</a>
                 </div>
