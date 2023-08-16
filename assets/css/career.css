@@ -1,0 +1,153 @@
+.banner_img_container {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  position: relative;
+}
+
+.banners-section {
+  position: relative;
+  display: inline-flex;
+  flex-direction: row;
+}
+
+ul li {
+  color: #777777;
+}
+
+.career__btn {
+	text-decoration: none !important;
+	text-transform: uppercase;
+	color: #f68b2a !important;
+	border: 3px solid #c3202f !important;
+	background-color: white !important;
+	padding: 15px 20px !important;
+	border-radius: 12px;
+}
+
+#open_position {
+  position: relative;
+}
+
+#open_position::before {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 10%;
+  width: 90%;
+  height: 50px;
+  background: radial-gradient(ellipse at 100% -1%, rgba(00, 00, 00, 0.5), rgba(97, 97, 97, 0) 40%);
+}
+
+.career__btn:hover {
+  background-color: #f68b2a !important;
+  color: white !important;
+  border: 3px solid #f68b2a !important;
+}
+
+.show {
+  visibility: visible;
+}
+
+.hide {
+  visibility: hidden;
+  display: none !important;
+}
+
+.no-job-description {
+  font-size: 20px;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.no-job_img {
+  width: 5rem;
+  margin: 0 auto;
+}
+
+.banner_content_container {
+  position: absolute;
+  left: 0;
+}
+
+.banner_img_container::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgb(4, 4, 3);
+  background: linear-gradient(90deg,
+      rgba(4, 4, 3, 1) 0%,
+      rgba(36, 39, 38, 0.9035947142528886) 35%,
+      rgba(23, 25, 24, 0.6626983557094712) 59%,
+      rgba(0, 0, 0, 0.11087762741815477) 100%);
+  top: 0;
+  left: 0;
+}
+
+.job-post {
+  margin-top: 1rem;
+}
+
+.job-location {
+  color: gray;
+  margin-top: 10px;
+  text-transform: initial;
+}
+
+.why-work {
+  font-size: 2.5rem;
+  margin: 3rem 0 0 0;
+}
+
+ul {
+  margin-left: -1rem;
+}
+
+li {
+  font-size: 21px;
+}
+
+.careers {
+  background: #fdf5f6;
+  padding: 4rem;
+}
+
+.search_input {
+  background: none;
+}
+
+.search_input:focus-visible {
+  border: 2px solid #c3202f;
+  outline: none;
+}
+
+.location-select {
+  background: #fdf5f6;
+  border: none;
+  padding: 15px;  
+  border-radius: 4px;
+}
+
+.location-select:focus-visible{
+  outline: none;
+}
+
+.location-btn:hover {
+  text-transform: capitalize;
+  border: none !important;
+  color: #ffffff !important;
+}
+
+.location-btn:hover .location-select {
+  color: white;
+  background-color: #c3202f !important;
+}
+
+.f_contacts ul,
+.f_quicklinks ul,
+.f_ourtechfam ul {
+  margin-left: 0;
+  padding-bottom: 20px;
+}

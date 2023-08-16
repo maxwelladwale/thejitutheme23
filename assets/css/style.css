@@ -1,0 +1,376 @@
+:root {
+  --beige-color: #fcf5f5;
+  --dimgrey-color: #f4f4f4;
+  --white-color: #ffffff;
+  --secondary-color: #f68b2a;
+  --primary-color: #c3202f;
+  --black-color: black;
+  --fontsize: 20px;
+  --percentage200: 200%;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+
+body {
+  font-family: "Mulish", sans-serif !important;
+  font-size: var(--fontsize);
+  line-height: 1.5;
+  color: #000;
+  white-space: normal;
+  font-style: normal;
+}
+
+h1,
+h2 {
+  font-family: "Lato", sans-serif !important;
+  font-weight: 600;
+  font-size: 35px;
+}
+
+h3,
+h4 {
+  font-family: "Lato", sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 30px;
+}
+h5 {
+  font-family: "Lato", sans-serif !important;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+p {
+  font-family: "Mulish", sans-serif !important;
+  font-weight: 400;
+  font-size: var(--fontsize);
+  margin: 5px 0px 20px 0px;
+  line-height: 1.8em;
+}
+
+/* wp inputs focus */
+/* Wp forms inputs focus */
+div.wpforms-container-full input[type="date"]:focus,
+div.wpforms-container-full input[type="datetime"]:focus,
+div.wpforms-container-full input[type="datetime-local"]:focus,
+div.wpforms-container-full input[type="email"]:focus,
+div.wpforms-container-full input[type="month"]:focus,
+div.wpforms-container-full input[type="number"]:focus,
+div.wpforms-container-full input[type="password"]:focus,
+div.wpforms-container-full input[type="range"]:focus,
+div.wpforms-container-full input[type="search"]:focus,
+div.wpforms-container-full input[type="tel"]:focus,
+div.wpforms-container-full input[type="text"]:focus,
+div.wpforms-container-full input[type="time"]:focus,
+div.wpforms-container-full input[type="url"]:focus,
+div.wpforms-container-full input[type="week"]:focus,
+div.wpforms-container-full select:focus,
+div.wpforms-container-full textarea:focus {
+  border: 2px solid orange !important;
+  outline: none;
+  box-shadow: none !important;
+}
+/* WP Forms Buttons */
+.wpforms-form input[type="submit"],
+.wpforms-form button[type="submit"] {
+  font-family: "Mulish", sans-serif !important;
+  background-color: var(--secondary-color) !important;
+  color: var(--white-color) !important;
+  border-radius: 10px !important;
+  text-transform: uppercase !important;
+  width: fit-content !important;
+}
+
+/* New button hover styles */
+.wpforms-form input[type="submit"]:hover,
+.wpforms-form input[type="submit"]:active,
+.wpforms-form button[type="submit"]:hover,
+.wpforms-form button[type="submit"]:active,
+.wpforms-form .wpforms-page-button:hover,
+.wpforms-form .wpforms-page-button:active {
+  background: var(--white-color) !important;
+  border: var(--secondary-color) 2px solid !important;
+  color: var(--secondary-color) !important;
+}
+
+/* New button focus styles */
+.wpforms-form input[type="submit"]:focus,
+.wpforms-form button[type="submit"]:focus,
+.wpforms-form .wpforms-page-button:focus {
+  background: var(--white-color) !important;
+  border: var(--secondary-color) 2px solid !important;
+  color: var(--secondary-color) !important;
+}
+.home-btn {
+  background: white !important;
+  color: orange !important;
+  border: 2px solid var(--primary-color) !important;
+}
+
+.home-btn:hover {
+  background: orange !important;
+  color: white !important;
+}
+.button {
+  font-family: "Mulish", sans-serif !important;
+  background-color: var(--secondary-color) !important;
+  color: var(--white-color) !important;
+  border-radius: 10px !important;
+  padding: 15px 20px !important;
+  text-transform: uppercase !important;
+  border: var(--secondary-color) 2px solid !important;
+  font-size: medium;
+}
+
+.button:hover {
+  background-color: var(--white-color) !important;
+  background: var(--white-color) !important;
+  border: var(--secondary-color) 2px solid !important;
+  color: var(--secondary-color) !important;
+}
+
+.button-clear {
+  font-family: "Mulish", sans-serif !important;
+  font-size: medium;
+  padding: 15px 20px !important;
+  border-radius: 10px !important;
+  text-transform: uppercase !important;
+  background-color: none;
+  color: var(--white-color);
+  border: solid 2px var(--white-color);
+}
+.button-clear:hover,
+.button-clear:focus {
+  background-color: #fff !important;
+  border: 2px solid #f68b2a;
+  color: #f68b2a;
+}
+
+.button-clear:hover {
+  background-color: var(--secondary-color);
+}
+
+.section {
+  margin: 80px 0 0 0 !important;
+}
+
+i {
+  color: var(--primary-color);
+  font-size: var(--fontsize);
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.main_footer a {
+  color: var(--white-color);
+  color: var(--white-color);
+
+  color: var(--white-color);
+}
+
+.txt200 {
+  font-size: var(--percentage200);
+}
+/* Navbar Styling  */
+
+.nav-lev1 {
+  justify-content: end;
+}
+
+.bg-jitu {
+  --bs-bg-opacity: 1;
+  background-color: var(--primary-color) !important;
+}
+.link_p {
+  font-family: var(--secondary-font) !important;
+  font-size: 1.1em;
+}
+.link_p2 {
+  font-family: var(--main-font);
+  font-size: 1.5em;
+}
+.ul1 {
+  gap: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.ul2 {
+  gap: 30px;
+}
+.bound {
+  content: "";
+  margin-right: 2px;
+  display: block;
+  width: 1px;
+  border-right: 1px solid --black-color;
+  height: 20px;
+  margin-top: 0.4em;
+}
+
+#bpo-testimonials {
+  position: relative;
+}
+
+#bpo-testimonials::before {
+  content: "";
+  position: absolute;
+  background: rgba(0, 0, 0, 0.3);
+  width: 85%;
+  left: 7rem;
+}
+
+/* Spacer */
+.spacer {
+  margin-bottom: 100px;
+}
+
+/* Footer */
+.main_footer {
+  display: flex;
+  flex-direction: row;
+  background-image: url("../img/footer/footer.jpg"),
+    linear-gradient(rgba(0, 0, 0, 0.707), rgba(0, 0, 0, 0.7));
+  background-position: center;
+  background-size: cover;
+  padding: 3rem;
+  background-blend-mode: overlay;
+}
+.footer_logo > a > img {
+  width: 200px;
+  margin: 40px;
+}
+
+.f_contacts,
+.f_quicklinks,
+.f_ourtechfam {
+  color: var(--white-color);
+  font-size: var(--fontsize);
+  font-weight: 200;
+}
+.f_contacts ul li,
+.f_quicklinks ul li,
+.f_ourtechfam ul li {
+  list-style: none;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.f_contacts ul li a:hover, .f_quicklinks ul li a:hover, .f_ourtechfam ul li a:hover {
+  color: var(--primary-color);
+}
+.f_contacts ul,
+.f_quicklinks ul,
+.f_ourtechfam ul {
+  padding-left: 0;
+}
+.link_r {
+  /* display: flex; */
+  width: 20%;
+}
+.link_l {
+  width: 80%;
+}
+
+.gapBtn {
+  display: flex;
+  row-gap: 10px;
+}
+
+.process_banner {
+  background-color: transparent !important;
+  border: 1px solid white !important;
+}
+
+.process {
+  background-color: #fdfdfd;
+}
+
+.border_stage {
+  border: 2px solid linear-gradient(#604942, #c86e66, #d02a25);
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+.btn_mutiple {
+  background-color: white !important;
+  color: black !important;
+  font-weight: bold !important;
+  width: 240px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.content {
+  padding: 10px;
+  height: 290px;
+  width: 900px;
+  text-align: left;
+  background-color: white;
+  font-weight: bold;
+  box-shadow: 10px 10px 10px #f4f4f4;
+  border-radius: 10px;
+}
+.plus {
+  width: 20px !important;
+}
+
+.no_bg_blue {
+  background-color: white !important;
+}
+
+.country-summary {
+  inline-size: 39rem;
+  word-spacing: 5px;
+}
+
+.view {
+  margin-top: 51px;
+}
+
+/* services page start */
+.custom-bg {
+  position: relative;
+}
+
+.custom-bg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/services.img.jpg") !important;
+  background-size: cover !important;
+  opacity: 0.2;
+  background-color: rgba(246, 245, 245, 0.7);
+  clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 100%);
+  z-index: 1;
+}
+.custom-bg .content {
+  position: relative;
+  z-index: 2;
+}
+
+.tech-pg-banner {
+  background-image: url("../img/tech-banner-img.jpg"),
+    linear-gradient(100deg, #111 20%, #777777 80%);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+
+/* footer social icons */
+.socials {
+  font-size: 53px;
+}
+
+/* top bar color change on hover  */
+.top-bar .menu-item a.nav-link:hover {
+  color: var(--black-color) !important;
+}

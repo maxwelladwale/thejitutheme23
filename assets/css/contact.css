@@ -1,0 +1,44 @@
+.contact-frm {
+  padding: 100px 0px;
+  /* padding-top: 170px; */
+}
+.contactlink {
+  color: var(--black-color);
+}
+.contactlink:hover {
+  color: var(--primary-color);
+}
+.con_form {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.cont_text {
+  background-color: #fcf5f5;
+  padding: 30px 50px;
+}
+.contact_banner {
+  height: 50vh;
+  /* background-color: #F4F4F4; */
+  /* background-image: url('../img/banner-contact.jpg'); */
+  background-image: url("../img/banner-contact.jpg"),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-blend-mode: overlay;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  margin-top: 10vh;
+}
+.contact_banner .bbanner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.contact_banner .bbanner h1 {
+  /* margin-bottom: -75px; */
+}
+
+#ct_banner_height {
+  height: 95vh !important;
+}

@@ -1,0 +1,61 @@
+.tech-about {
+  position: relative;
+}
+
+.tech-about::before {
+  content: "";
+  position: absolute;
+  left: 4%;
+  width: 96%;
+  height: 50px;
+  background: radial-gradient(
+    ellipse at 100% -1%,
+    rgba(00, 00, 00, 0.5),
+    rgba(97, 97, 97, 0) 40%
+  );
+  z-index: 0;
+}
+
+.tech-careers {
+  position: relative;
+}
+
+.tech-careers::before {
+  content: "";
+  position: absolute;
+  left: 4%;
+  width: 96%;
+  height: 50px;
+  background: radial-gradient(
+    ellipse at 100% -1%,
+    rgba(00, 00, 00, 0.5),
+    rgba(97, 97, 97, 0) 40%
+  );
+  top: 0rem;
+  z-index: 0;
+}
+
+.tech-careers::after {
+  content: "";
+  position: absolute;
+  left: 0%;
+  width: 96%;
+  height: 50px;
+  background: radial-gradient(
+    ellipse at 0% 1%,
+    rgba(00, 00, 00, 0.5),
+    rgba(97, 97, 97, 0) 40%
+  );
+  top: 0rem;
+  z-index: 0;
+}
+
+.tech-p-about {
+  padding-top: 6rem !important;
+  padding-bottom: 6rem !important;
+}
+
+.tech-p-careers {
+  padding-top: 6rem !important;
+  padding-bottom: 3rem !important;
+}

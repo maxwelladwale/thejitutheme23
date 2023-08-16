@@ -1,0 +1,51 @@
+THE JITU CUSTOM THEME
+
+## Getting Started
+
+Clone the repositry into the your WordPress Environment under the themes folder
+
+git clone git@bitbucket.org:the-jitu/jitu-marketing-site.git
+
+Activate theme via the wordpress admin dashboard
+
+## Creating Pages
+
+1. Create new page via the admin dashboard
+2. Choose the appropriate template
+3. Publish your pages
+4. View Page
+
+## Creating Navigation Menu
+
+The theme uses wp-navwalker with bootstrap to give a dynamic menu experience
+1. Create new menu via admin dashboard
+2. Select menu location
+3. Add pages or custom URLs
+4. Save your work
+
+## Creating page templates
+
+When creating a new page, you need to create a wordpress page template
+more info here:- https://developer.wordpress.org/themes/basics/template-files/
+
+
+## Theme structure
+assets 
+    css ----------- > page css
+    img ----------- > theme images
+    js -----------  > javascript files
+template-parts ---- > theme template parts (to be included in other templates)
+    header -------- > navigation templates-parts
+templates --------- > custom page templates
+functions.php ----- > controls theme functions
+header.php -------- > site header
+footer.php -------- > site footer
+page.php ---------- > single page template
+single.php -------- > Single page template
+style.css --------- > Theme entry
+
+## Making commits and PRs
+Always create a branch based off master
+Always include the ticket number on the PR
+Always make a pull request every morning
+Make your commit messages clear

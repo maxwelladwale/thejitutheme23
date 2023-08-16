@@ -1,0 +1,296 @@
+.trainingbanner {
+  background-image: url("../img/icons/trainingbanner.webp"),
+    linear-gradient(100deg, #777777, #111 68%);
+  background-position: right;
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  height: 95vh;
+}
+
+.cont a {
+  color: #ffff !important;
+}
+
+.cont a:hover {
+  color: #f68b2a !important;
+}
+
+.trainingcont {
+  color: #ffff !important;
+}
+
+.trainingcont :hover {
+  color: #f68b2a !important;
+}
+.stackIcon {
+  margin-top: 17px;
+}
+
+.trainingContent {
+  background-color: #fcf4f4 !important;
+  position: relative;
+  padding-top: 70px;
+}
+
+#v-pills-turnaround-tab,
+#v-pills-flexiblity-tab,
+#v-pills-quality-tab,
+#v-pills-davings-tab {
+  background-color: white !important;
+}
+
+#v-pills-turnaround-tab,
+#v-pills-flexiblity-tab,
+#v-pills-quality-tab,
+#v-pills-davings-tab:hover {
+  background-color: white !important;
+}
+
+#trainingbtn {
+  inline-size: 300px;
+  background: white !important;
+  color: orange !important;
+  border: 2px solid #c3202f !important;
+  width: fit-content;
+}
+
+#trainingbtn:hover {
+  background: orange !important;
+  color: white !important;
+  border: 2px solid orange !important;
+}
+
+#bannertraining {
+  position: relative;
+}
+
+.threetraining {
+  width: 100%;
+  position: relative;
+  font-weight: 600;
+  font-size: 26px;
+  color: #595b61;
+}
+
+.training-desc {
+  margin-bottom: 35px;
+}
+
+.trainingContent::before {
+  content: "";
+  position: absolute;
+  left: 5%;
+  width: 95%;
+  height: 60px;
+  background: radial-gradient(
+    ellipse at 100% -1%,
+    rgba(00, 00, 00, 0.5),
+    rgba(97, 97, 97, 0) 40%
+  );
+  top: 0;
+  z-index: 0;
+}
+
+/* .trainingContent::after {
+  content: "";
+  position: absolute;
+  width: 57%;
+  height: 47px;
+  background-color: #b5bdbc;
+  left: -1rem;
+  border-bottom-right-radius: 80%;
+  filter: blur(14px);
+  bottom: -1rem;
+  z-index: -1;
+} */
+
+.tech-stack {
+  border: 1px solid red;
+}
+
+.rightIcon {
+  display: inline-flex;
+  align-items: center;
+}
+
+.rightIcon img,
+.rightIcon p {
+  vertical-align: middle;
+}
+
+.program {
+  margin: 0px 0px 0px 0px !important;
+  position: relative;
+}
+
+.program::before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  top: -41px;
+  width: 100%;
+  height: 40px;
+  background: radial-gradient(
+    ellipse at 50% 100%,
+    rgb(151 149 149),
+    rgba(186, 186, 186, 0) 50%
+  );
+}
+
+.trainingStacks {
+  width: 100%;
+}
+
+.trainingCon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.checkdiv3 {
+  margin-left: 9px;
+}
+
+.attachment {
+  position: relative;
+}
+
+#attchmentbtn {
+  width: 44%;
+  margin-left: 12px;
+}
+
+.icon {
+  max-width: 47% !important;
+}
+
+.trainingImg {
+  border-radius: 50px !important;
+  width: 100%;
+}
+
+.attachmentimg {
+  border-radius: 50px !important;
+  width: 100% !important;
+}
+
+.progCalendar {
+  width: 78% !important;
+}
+
+.calender {
+  background-image: url("../img/icons/calendar-removebg-preview.webp");
+  background-position: center;
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: end;
+  position: relative;
+  height: 550px;
+}
+
+.calender::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  width: 70%;
+  height: 40px;
+  left: 0;
+  background: radial-gradient(
+    ellipse at 50% 0%,
+    rgb(151 149 149),
+    rgba(186, 186, 186, 0) 50%
+  );
+}
+
+.bg-program {
+  width: 50%;
+}
+
+.calenderdiv {
+  width: 50%;
+}
+
+.calender::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  width: 70%;
+  height: 40px;
+  right: 0;
+  background: radial-gradient(
+    ellipse at 50% 0%,
+    rgb(151 149 149),
+    rgba(186, 186, 186, 0) 50%
+  );
+}
+
+.programBtn {
+  width: 33% !important;
+  /* margin-left: 12px; */
+}
+
+.attachmentbtn {
+  width: fit-content !important;
+  /* margin-left: 12px; */
+  text-align: center;
+}
+
+p.trainingp1 {
+  font-size: var(--fontsize);
+}
+
+@media only screen and (max-width: 600px) {
+  .calender::before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    width: 70%;
+    height: 30px;
+    left: 0%;
+    background: radial-gradient(
+      ellipse at 50% 0%,
+      rgb(151 149 149),
+      rgba(186, 186, 186, 0) 50%
+    );
+  }
+
+  .calender::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    bottom: 0;
+    width: 70%;
+    height: 30px;
+    right: 0%;
+    background: radial-gradient(
+      ellipse at 50% 0%,
+      rgb(151 149 149),
+      rgba(186, 186, 186, 0) 50%
+    );
+  }
+
+  .program::before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    top: -31px;
+    width: 100%;
+    height: 30px;
+    background: radial-gradient(
+      ellipse at 50% 100%,
+      rgb(151 149 149),
+      rgba(186, 186, 186, 0) 50%
+    );
+  }
+}

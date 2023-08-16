@@ -1,0 +1,130 @@
+/*
+*
+*  Navigation Stylesheet
+*
+*/
+
+/*import global stylesheet*/
+@import './style.css'; 
+.dropdown-item.active, .dropdown-item:active{
+    background-color: var(--primary-color) !important;
+}
+.dropdown-menu
+.main-bar {
+    display: contents;
+}
+/* .main-bar .active>a:after{
+    content:'';
+    background-color: var(--primary-color);
+    height:5px;
+    width:100%;
+    position:relative;
+    display:block;
+    border-radius: 25px;
+} */
+
+/* .dropdown-toggle::after {
+    display: inline !important;
+} */
+
+.top-bar .active>a:after{
+    content:'';
+    background-color: var(--white-color);
+    height:2px;
+    width:100%;
+    position:relative;
+    display:block;
+    border-radius: 25px;
+}
+
+.top-bar>li>a{
+    color: var(--white-color);
+}
+
+.boxed-shadowed{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+ 
+
+/*Dropdown Css*/
+
+  .dropdown-submenu {
+      position: relative;
+  }
+  .dropdown-submenu>.dropdown-menu {
+      top: 0;
+      left: 100%;
+      margin-top: -6px;
+      margin-left: -1px;
+      -webkit-border-radius: 0 6px 6px 6px;
+      -moz-border-radius: 0 6px 6px;
+      border-radius: 0 6px 6px 6px;
+  }
+  .dropdown-submenu:hover > .dropdown-menu {
+      display: block;
+  }
+  .dropdown-submenu>a:after {
+      display: block;
+      content: " ";
+      float: right;
+      width: 0;
+      height: 0;
+      border-color: transparent;
+      border-style: solid;
+      border-width: 5px 0 5px 5px;
+      border-left-color: #ccc;
+      margin-top: 5px;
+      margin-right: -10px;
+  }
+  .dropdown-submenu:hover>a:after {
+      border-left-color: #fff;
+  }
+  .dropdown-submenu.pull-left {
+      float: none;
+  }
+  .dropdown-submenu.pull-left>.dropdown-menu {
+      left: -100%;
+      margin-left: 10px;
+      -webkit-border-radius: 6px 0 6px 6px;
+      -moz-border-radius: 6px 0 6px 6px;
+      border-radius: 6px 0 6px 6px;
+  }
+  .dropdown-menu{
+    border: none;
+    border-radius: 0;
+
+}
+
+.main-bar .active>a{
+    color: var(--primary-color);
+}
+  /*./Dropdown Css*/
+
+
+
+@media (min-width: 992px){
+    .menu-top-bar-container{
+        display: none;
+      }
+      .dropdown:hover > .dropdown-menu {
+        display: block;
+      }
+}
+@media only screen and (max-width: 600px) {
+    .navbar-nav{
+        align-items: center !important;
+    }
+
+    .process-banns::after{
+        display: none !important;
+    }
+
+.dropdown:hover > .dropdown-menu {
+    text-align: center;
+}
+#menu-item-62{
+    text-align: center;
+}
+
+}
+

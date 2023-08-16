@@ -1,0 +1,321 @@
+@import url("https://cdn.jsdelivr.net/npm/simplebar@latest/dist/simplebar.css");
+
+#Accounting_Services li,
+#Customer_Application_Support li,
+#Level_1_IT_Help_Desk li {
+  list-style-type: none;
+  position: relative;
+  padding-left: 2rem;
+}
+
+#Accounting_Services li > span,
+#Customer_Application_Support li > span,
+#Level_1_IT_Help_Desk li > span {
+  padding-left: 24px;
+  display: inline-block;
+}
+
+#Accounting_Services li::before,
+#Customer_Application_Support li::before,
+#Level_1_IT_Help_Desk li::before {
+  content: url("../img/icons/list-style-image.png");
+  position: absolute;
+  top: -0.25rem;
+}
+
+#Accounting_Services p,
+#Customer_Application_Support p,
+#Level_1_IT_Help_Desk p {
+  margin: 30px 30px 50px 0;
+}
+
+.simplebar-scrollbar.simplebar-visible::before {
+  background-color: var(--secondary-color);
+  opacity: 1;
+}
+
+.simplebar-track {
+  background-color: #d3d2d2ff;
+  border-radius: 7px;
+  right: auto;
+}
+
+.service-navs-animation {
+  transition: transform 0.3s ease-in-out;
+}
+
+.service-navs-animation.slide-up {
+  transform: translateY(-100%);
+}
+
+.service-navs-animation.slide-down {
+  transform: translateY(46px);
+}
+
+.diagonal-image-banner {
+  background-image: url(../img/dia-bpo.jpg),
+    linear-gradient(100deg, #111 20%, #777777 80%);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-position-y: 25%;
+  background-size: cover;
+  margin-top: 3rem !important;
+}
+
+.diagonal-image-banner.diagonal-image-banner.mb-5 {
+  height: 70vh;
+  clip-path: polygon(0% 15%, 100% 0%, 100% 85%, 0% 100%);
+}
+
+#Operations .nav-link.active {
+  color: #c3202f !important;
+  font-weight: bold;
+}
+
+#BPO_Banner {
+  box-shadow: 0px 6px 9px 5px rgba(0, 0, 0, 0.1);
+}
+
+#bpo-banner-container {
+  height: 98vh;
+}
+
+#bpo-banner-container::after {
+  display: none;
+}
+
+#Streamline {
+  text-transform: capitalize !important;
+}
+
+#Diagonal_Image .mb-5-wrap {
+  filter: drop-shadow(0 5px 15px dimgray);
+}
+
+#Customer_Application_Support {
+  padding-bottom: 6rem !important;
+}
+
+#Accounting_Services .scrollable,
+#Customer_Application_Support .scrollable,
+#Level_1_IT_Help_Desk .scrollable {
+  max-height: 30rem;
+}
+
+#CAS_Container {
+  position: relative;
+}
+
+#CAS_Container::after {
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 50%;
+  width: 60%;
+  top: 0;
+  box-shadow: 0 20px 20px -20px dimgray;
+}
+
+#Level_1_IT_Help_Desk {
+  padding-top: 4rem !important;
+  padding-bottom: 6rem !important;
+}
+
+#IT_Container {
+  position: relative;
+}
+
+#IT_Container::after {
+  content: "";
+  position: absolute;
+  height: 45px;
+  bottom: -47px;
+  background: radial-gradient(
+    ellipse at 40% 0%,
+    #bab4b4,
+    rgba(70, 69, 69, 0) 50%
+  );
+  z-index: -1;
+  width: 100%;
+  left: 7rem;
+}
+
+#bpo-testimonials::before {
+  content: none;
+}
+
+#bpo-testimonials {
+  margin-top: 0.5rem;
+  margin-bottom: 3rem;
+}
+
+#previous {
+  margin: auto;
+}
+
+#next {
+  margin: auto;
+}
+
+#bpo-testimonials .testimonial-author {
+  margin-left: 50vw;
+}
+
+/* Sticky header */
+.sticky {
+  position: fixed;
+  top: 90px;
+  background-color: white;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  width: -webkit-fill-available;
+}
+
+#CAS_Section_Target,
+#IT_Section_Target {
+  position: relative;
+  top: -150px;
+}
+
+#Acc_Section_Target {
+  position: relative;
+  top: -125px;
+}
+
+#banner_btn {
+  margin-bottom: 80px;
+}
+
+.page-template-bpo .c_testimonial::before {
+  display: none;
+  padding-top: 0 !important;
+}
+
+.c_testimonial {
+  padding-top: 0 !important;
+}
+
+#BPO_P {
+  margin-bottom: 40px !important;
+}
+
+.bpo-banner-button {
+  font-family: "Mulish", sans-serif !important;
+  background-color: white !important;
+  color: #f68b2a !important;
+  border-radius: 12px;
+  padding: 15px 20px !important;
+  border: 3px solid #c3202f !important;
+  text-transform: uppercase !important;
+  font-size: medium;
+}
+
+.bpo-banner-button:hover {
+  background-color: #f68b2a !important;
+  color: white !important;
+  border: none !important;
+}
+
+/* Small mobile screens */
+@media only screen and (max-width: 600px) {
+  #CAS_Container::after,
+  #IT_Container::after {
+    left: 0;
+    width: 100%;
+  }
+  #Accounting_Services div,
+  #Customer_Application_Support div,
+  #Level_1_IT_Help_Desk div {
+    /* width: 48%; */
+    margin-bottom: 60px;
+  }
+  #Accounting_Services .scrollable,
+  #Customer_Application_Support .scrollable,
+  #Level_1_IT_Help_Desk .scrollable {
+    padding-left: 30px;
+  }
+
+  #BPO_Banner p {
+    padding-bottom: 30px;
+  }
+  #BPO_Banner button {
+    width: 48%;
+  }
+}
+
+/* Smartphones and larger mobile screens */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+  #CAS_Container::after,
+  #IT_Container::after {
+    left: 0;
+    width: 100%;
+  }
+  #Accounting_Services button,
+  #Customer_Application_Support button,
+  #Level_1_IT_Help_Desk button {
+    width: 48%;
+    margin-bottom: 60px;
+  }
+  #Accounting_Services .scrollable,
+  #Customer_Application_Support .scrollable,
+  #Level_1_IT_Help_Desk .scrollable {
+    padding-left: 30px;
+  }
+}
+
+/* Medium devices  */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  #CAS_Container::after,
+  #IT_Container::after {
+    left: 0;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1850px) {
+}
+
+/* Desktops and larger screens */
+@media only screen and (min-width: 1900px) {
+  #Accounting_Services,
+  #Customer_Application_Support,
+  #Level_1_IT_Help_Desk {
+    min-height: 574px;
+  }
+}
+
+.banner-shadow {
+  position: relative;
+  width: 100%;
+  height: 40px;
+}
+
+.banner-shadow::before {
+  content: "";
+  position: absolute;
+  width: 45vw;
+  height: 60px;
+  background-color: #bebfbf;
+  left: 5vw;
+  border-radius: 70%;
+  filter: blur(8px);
+  top: -35px;
+  z-index: -1;
+}
+
+.banner-shadow::after {
+  content: "";
+  position: absolute;
+  width: 45vw;
+  height: 60px;
+  background-color: #bebfbf;
+  right: 5vw;
+  border-radius: 70%;
+  filter: blur(8px);
+  top: -35px;
+  z-index: -1;
+}
