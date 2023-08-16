@@ -18,7 +18,7 @@ get_header();
         <div class="container">
             <div class="row align-items-start">
                 <div class="col-sm-12 col-lg-8 col-md-8 bannerDiv">
-                    <h1 class="banner_h1">Augment your team, <span class="redtext">accelerate your success!</span></h1>
+                    <h1 class="banner_h1">Augment your team <span class="redtext">accelerate your success!</span></h1>
                     <p class="banner_p">
                         In addition to helping your organization reduce cost, increase productivity, and hire top talent, we offer a comprehensive suite of services. Our mission is to offer customized and personalized solutions that cater to the unique needs of each company we work with. Whether you need front-end or back-end services, technology solutions, or all three, we are here to help.
                     </p>
