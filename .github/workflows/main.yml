@@ -1,5 +1,6 @@
 on:
-  push:
+  repository_dispatch:
+    types: do-something
     branches:
       - main
 
